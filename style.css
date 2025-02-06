@@ -202,7 +202,11 @@ h6 {
 
   .card-img {
     border-radius: 0.8rem 0 0 0.8rem;
-    /* width: 100%; */
+    width: 40%;
+  }
+
+  .card-content {
+    width: 60%;
   }
 
   #share-active {
