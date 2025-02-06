@@ -121,7 +121,7 @@
 #share-active-block{
   display: none;
 }
-.share-default{
+.open-share-links{
     padding: 1rem;
     background-color: var(--Light-Grayish-Blue);
     border-radius: 50%;
