@@ -190,18 +190,26 @@ h6 {
 
   .container {
     display: flex;
-    max-width: 800px;
-    /* position: static; */
+    width: 760px;
+    height: fit-content;
   }
+
   .card-img {
     border-radius: 0.8rem 0 0 0.8rem;
+    width: 100%;
   }
 
   #share-active {
     width: 40%;
     bottom: 90px;
-    right: -100px;
+    right: -10px;
     border-radius: 0.8rem;
     padding: 1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  #share-active {
+    right: -100px;
   }
 }
