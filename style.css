@@ -192,6 +192,7 @@ h6 {
     display: flex;
     width: 760px;
     height: fit-content;
+    position: relative;
   }
 
   .card-img {
