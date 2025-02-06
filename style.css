@@ -197,11 +197,12 @@ h6 {
     flex-direction: row;
     height: fit-content;
     position: relative;
+    flex-shrink: 0;
   }
 
   .card-img {
     border-radius: 0.8rem 0 0 0.8rem;
-    width: 100%;
+    /* width: 100%; */
   }
 
   #share-active {
