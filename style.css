@@ -88,7 +88,7 @@ body {
   height: 50px;
   border-radius: 50%;
 }
-#share-active-block {
+.hide {
   display: none;
 }
 .open-share-links {
@@ -152,6 +152,8 @@ body {
   .card-img {
     border-radius: 0.8rem 0 0 0.8rem;
     width: 40%;
+    object-fit: cover;
+    object-position: left;
   }
 
   .card-content {
