@@ -161,11 +161,16 @@ body {
   }
 
   #share-active {
-    width: 40%;
+    width: 30%;
     bottom: 90px;
     right: -10px;
     border-radius: 0.8rem;
     padding: 1rem;
+  }
+
+  .open-share-links:hover,
+  .open-share-links:focus {
+    background-color: var(--very-Dark-Grayish-Blue);
   }
 }
 
