@@ -27,6 +27,7 @@ body {
   --Light-Grayish-Blue: hsl(210, 46%, 95%);
 }
 
+/* Mobile styles */
 .container {
   max-width: 90%;
   margin: 2rem auto;
@@ -53,20 +54,20 @@ body {
   line-height: 130%;
   font-weight: 700;
   font-size: 1.25rem;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.016rem;
 }
 
 .article-text {
   margin-bottom: 2.5rem;
   font-size: 0.875rem;
-  letter-spacing: 0.12px;
+  letter-spacing: 0.008rem;
   font-weight: 500;
 }
 
 .author-name,
 .article-date {
   font-size: 0.875rem;
-  letter-spacing: 0.12px;
+  letter-spacing: 0.008rem;
   font-weight: 500;
 }
 
@@ -84,8 +85,8 @@ body {
   gap: 1rem;
 }
 .author-avatar {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
 }
 .hide {
@@ -127,11 +128,12 @@ body {
 .share-text {
   text-transform: uppercase;
   color: #fff;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
   color: var(--Grayish-Blue);
 }
 
-@media (min-width: 768px) {
+/* Styles for medium and larger screens */
+@media (min-width: 48rem) {
   body {
     display: flex;
     justify-content: center;
@@ -141,7 +143,7 @@ body {
 
   .container {
     width: 100%;
-    max-width: 760px;
+    max-width: 47.5rem;
     display: flex;
     flex-direction: row;
     height: fit-content;
@@ -162,8 +164,8 @@ body {
 
   #share-active {
     width: 30%;
-    bottom: 90px;
-    right: -10px;
+    bottom: 5.625rem;
+    right: -0.625rem;
     border-radius: 0.8rem;
     padding: 1rem;
   }
@@ -174,8 +176,8 @@ body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 62.5rem) {
   #share-active {
-    right: -100px;
+    right: -6.25rem;
   }
 }
